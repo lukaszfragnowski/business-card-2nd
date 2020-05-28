@@ -1,0 +1,74 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #2c2141;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  background: #f8f8f8;
+  display: block;
+  width: 624px;
+  border-radius: 16px;
+  padding: 32px;
+  margin: 16px;
+}
+
+.person {
+  display: flex;
+  align-items: flex-start;
+}
+
+.person__name {
+  font-size: 36px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 0;
+}
+
+.person__description {
+  margin: 0;
+  font-size: 16px;
+}
+
+.person__description--margin {
+  margin-bottom: 16px;
+}
+
+.person__link {
+  text-decoration: none;
+  color: #E20613;
+}
+
+.person__picture {
+  width: 148px;
+  height: 148px;
+  border-radius: 74px;
+  margin-right: 32px;
+}
+
+.person__position {
+margin: 0;
+margin-bottom: 30px;
+font-size: 18px;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-style: italic;
+}
+
+
+.special {
+font-weight: normal;
+color: #ED6D05;
+
+}
